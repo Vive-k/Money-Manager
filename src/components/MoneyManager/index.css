@@ -1,0 +1,149 @@
+/* Write your CSS here */
+.page {
+  min-height: 100vh;
+  font-family: 'Roboto';
+  padding: 40px;
+}
+
+.money-manager-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.title {
+  color: #475569;
+}
+
+.Welcome-text {
+  color: #475569;
+  font-weight: 600;
+}
+
+.text-moni-mngr {
+  color: #0b69ff;
+  font-weight: 700;
+}
+
+.money-details-contaier {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+form {
+  border: 2px solid #cbd5e1;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 447px;
+}
+
+.form-contents-container {
+  width: 100%;
+}
+
+.form-title {
+  color: #334155;
+}
+
+label {
+  font-size: 16px;
+  color: #7e858e;
+  font-weight: 600;
+}
+
+.label-container {
+  margin-bottom: 10px;
+}
+
+.input-container {
+  width: 100%;
+  border: 2px solid #cbd5e1;
+  padding: 5px;
+}
+
+.transactionTitleAmountInput {
+  border-style: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  border-style: none;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.history-container {
+  border: 2px solid #cbd5e1;
+  border-radius: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.transaction-record-container {
+  border: 2px solid #cbd5e1;
+}
+
+.history-columns-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  color: #334155;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.to-make-column {
+  width: 28%;
+}
+
+.transactions-in-history-record {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-contaier {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-history-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  form {
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .form-contents-container {
+  }
+
+  .history-container {
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .money-manager-bg {
+    text-align: start;
+  }
+}

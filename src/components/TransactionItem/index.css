@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.line-row {
+  background-color: #cbd5e1;
+  border: 0.5px solid #cbd5e1;
+}
+
+.transaction-history-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.to-make-column-transaction {
+  width: 28%;
+}
+
+.record-columns {
+  color: #7e858e;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.type-and-delete-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-style: none;
+}
+
+.delete-image {
+  width: 35px;
+}
